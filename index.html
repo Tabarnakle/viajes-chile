@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="text-light">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
@@ -47,44 +47,102 @@
     <!-- Carousel -->
     <div id="carouselViajes" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselViajes" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselViajes" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
     <!-- Acerca de -->
-    <section class="container text-light my-5">
+    <section id="about" class="container my-5">
         <h2 class="text-center">¿Quienes somos?</h2>
         <hr class="text-info mb-5">
         <div class="row row-cols row-cols-md-3">
             <div class="col h-100">
                 <div class="container-fluid bg-info text-center"><i class="fas fa-plane-departure fa-2x"></i></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis nostrum commodi optio excepturi labore laudantium ratione est voluptates consequatur, dolorum esse amet asperiores animi iure consectetur libero explicabo facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis sit tempore laudantium quae amet? Dicta distinctio aspernatur sint ipsam aliquam at, necessitatibus sapiente repudiandae eveniet enim, odio eius totam voluptates?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis nostrum commodi optio excepturi
+                    labore laudantium ratione est voluptates consequatur, dolorum esse amet asperiores animi iure
+                    consectetur libero explicabo facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Blanditiis sit tempore laudantium quae amet? Dicta distinctio aspernatur sint ipsam aliquam at,
+                    necessitatibus sapiente repudiandae eveniet enim, odio eius totam voluptates?</p>
             </div>
             <div class="col h-100">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis nostrum commodi optio excepturi labore laudantium ratione est voluptates consequatur, dolorum esse amet asperiores animi iure consectetur libero explicabo facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis sit tempore laudantium quae amet? Dicta distinctio aspernatur sint ipsam aliquam at, necessitatibus sapiente repudiandae eveniet enim, odio eius totam voluptates?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis nostrum commodi optio excepturi
+                    labore laudantium ratione est voluptates consequatur, dolorum esse amet asperiores animi iure
+                    consectetur libero explicabo facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Blanditiis sit tempore laudantium quae amet? Dicta distinctio aspernatur sint ipsam aliquam at,
+                    necessitatibus sapiente repudiandae eveniet enim, odio eius totam voluptates?</p>
                 <div class="container-fluid bg-info text-center mt-auto"><i class="fas fa-mountain fa-2x"></i></div>
             </div>
             <div class="col h-100">
                 <div class="container-fluid bg-info text-center mb-auto"><i class="fas fa-route fa-2x"></i></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis nostrum commodi optio excepturi labore laudantium ratione est voluptates consequatur, dolorum esse amet asperiores animi iure consectetur libero explicabo facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis sit tempore laudantium quae amet? Dicta distinctio aspernatur sint ipsam aliquam at, necessitatibus sapiente repudiandae eveniet enim, odio eius totam voluptates?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis nostrum commodi optio excepturi
+                    labore laudantium ratione est voluptates consequatur, dolorum esse amet asperiores animi iure
+                    consectetur libero explicabo facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Blanditiis sit tempore laudantium quae amet? Dicta distinctio aspernatur sint ipsam aliquam at,
+                    necessitatibus sapiente repudiandae eveniet enim, odio eius totam voluptates?</p>
             </div>
         </div>
     </section>
+    <!-- Destacados -->
+    <section id="destacados" class="container">
+        <h2 class="text-center">Destacados</h2>
+        <hr class="text-info mb-5">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card bg-info h-100">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Título</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis at ducimus facilis eum, assumenda maxime a aperiam. Sit tempora voluptate veritatis impedit harum vel, facilis laudantium voluptatum provident praesentium pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-info h-100">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Título</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis at ducimus facilis eum, assumenda maxime a aperiam. Sit tempora voluptate veritatis impedit harum vel, facilis laudantium voluptatum provident praesentium pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-info h-100">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Título</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis at ducimus facilis eum, assumenda maxime a aperiam. Sit tempora voluptate veritatis impedit harum vel, facilis laudantium voluptatum provident praesentium pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-info h-100">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Título</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis at ducimus facilis eum, assumenda maxime a aperiam. Sit tempora voluptate veritatis impedit harum vel, facilis laudantium voluptatum provident praesentium pariatur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <!-- Footer -->
+
     <!-- Popper JS 2.10.2 -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
